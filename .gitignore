@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+staticfiles/
+media/
+*.pot
+*.mo
+
+# Environment variables and secrets
+.env
+*.env
+
+# VS Code & PyCharm
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.egg
+*.egg-info/
+.eggs/
+
+# Migrations (optional if you don't want to commit them early)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Coverage & testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# Celery & Logs
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# Database dumps
+*.sql
+*.sqlite3
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.manifest
+*.spec
